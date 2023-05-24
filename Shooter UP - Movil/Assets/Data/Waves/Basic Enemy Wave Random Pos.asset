@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4294b0744abddb74ba72e9ee5e93cc72, type: 3}
+  m_Name: Basic Enemy Wave Random Pos
+  m_EditorClassIdentifier: 
+  enemies:
+  - enemyPrefab: {fileID: 1314656782434385932, guid: a238157c6e859ac42b505460eebb11cd, type: 3}
+    spwanReferencePosition: {x: 8, y: 6, z: 0}
+    useSpecificPosition: 0
+    config: {fileID: 11400000, guid: c44e0ced908349547a59911885731cd8, type: 2}
+  - enemyPrefab: {fileID: 1314656782434385932, guid: 8771b5cd21546994fb660832943bb447, type: 3}
+    spwanReferencePosition: {x: 8, y: 6, z: 0}
+    useSpecificPosition: 0
+    config: {fileID: 11400000, guid: c44e0ced908349547a59911885731cd8, type: 2}
+  - enemyPrefab: {fileID: 1314656782434385932, guid: 8771b5cd21546994fb660832943bb447, type: 3}
+    spwanReferencePosition: {x: 8, y: 6, z: 0}
+    useSpecificPosition: 0
+    config: {fileID: 11400000, guid: c44e0ced908349547a59911885731cd8, type: 2}
+  cadence: 0.5

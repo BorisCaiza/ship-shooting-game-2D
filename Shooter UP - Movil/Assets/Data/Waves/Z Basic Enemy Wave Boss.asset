@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4294b0744abddb74ba72e9ee5e93cc72, type: 3}
+  m_Name: Z Basic Enemy Wave Boss
+  m_EditorClassIdentifier: 
+  enemies:
+  - enemyPrefab: {fileID: 1843161203093384847, guid: 28b7431c729da364b88efe8598cb27f6, type: 3}
+    spwanReferencePosition: {x: 0, y: 5.5, z: 0}
+    useSpecificPosition: 1
+    config: {fileID: 11400000, guid: 803f8495db3730c4a8df9110f5aa8d5f, type: 2}
+  cadence: 0.5
